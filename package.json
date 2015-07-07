@@ -1,0 +1,40 @@
+{
+  "name": "cli-strlen",
+  "version": "0.0.0",
+  "description": "Find the length of a line of text",
+  "license": "MIT",
+  "repository": "icyflame/cli-strlen",
+  "author": {
+    "name": "Siddharth Kannan",
+    "email": "kannan.siddharth12@gmail.com",
+    "url": "icyflame.github.io"
+  },
+  "bin": {
+    "strlen": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "semistandard && mocha"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "length",
+    "bash",
+    "string",
+    "checksums"
+  ],
+  "dependencies": {
+    "get-stdin": "^4.0.1",
+    "meow": "^3.3.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "semistandard": "6.1.1"
+  }
+}
